@@ -431,7 +431,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
-		"labeltext"									"Q"
+		"labeltext"									"O"
 		"font"										"TF2 Icons"
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"

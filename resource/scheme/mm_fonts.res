@@ -743,6 +743,17 @@
 				"antialias" "1"
 			}
 		}
+		"HudFontSmallish1Bold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"15"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontSmallBold"
 		{
 			"1"
