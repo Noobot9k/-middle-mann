@@ -11,11 +11,11 @@
 	}
 	"AmmoInClip"
 	{
-		"xpos"			"rs1-90"
+		"xpos"			"rs1-80"
 	}
 	"AmmoInReserve"
 	{
-		"xpos"			"rs1"
+		"xpos"			"rs1+10"
 	}
 	"AmmoNoClip"
 	{
