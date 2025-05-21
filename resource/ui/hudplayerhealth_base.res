@@ -29,11 +29,26 @@
 		"xpos"			"c-217"
 		"ypos"			"437"
 		"zpos"			"4"
-		"wide"			"14"
+		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
+	}
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"
+		"pin_to_sibling"	"PlayerStatusHealthImage"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
@@ -46,21 +61,6 @@
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
-	}
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"3"
-		"ypos"			"3"
-		"zpos"			"3"
-		"wide"			"20"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"
-		"pin_to_sibling"	"PlayerStatusHealthImage"
 	}
 	"PlayerStatusHealthValue"
 	{
