@@ -1229,7 +1229,7 @@
 		"fieldName"					"HudMenuTauntSelection"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c110"
+		"xpos"						"c80"
 		"ypos"						"c-150"
 		"wide"						"150"
 		"tall"						"250"

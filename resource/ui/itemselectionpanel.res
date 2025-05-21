@@ -6,7 +6,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ItemSelectionPanel"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-10"
 		"zpos"										"500"
 		"wide"										"f0"
 		"tall"										"480"

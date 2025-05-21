@@ -1800,7 +1800,7 @@
 		"xpos"			"c-288"
 		"ypos"			"437"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"82"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -1998,7 +1998,7 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder2"
+		"border_default"	"MainMenuSubButtonBorder"
 
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2021,7 +2021,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"c-110"
+		"xpos"			"c-111"
 		"ypos"			"437"
 		"zpos"			"4"
 		"wide"			"30"
@@ -2052,8 +2052,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"6"
+			"xpos"			"6"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"15"
 			"tall"			"15"
