@@ -527,6 +527,15 @@
 				"additive"	"0"
 				"antialias" "1"
 			}
+			 "linux"
+			{
+				"name"		"TF2 Build"
+				"tall"		"43"
+				"tall_lodef"	"52"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
 		}
 		"HudFontMediumSmallDAMAGE"
 		{
@@ -729,6 +738,17 @@
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontSmallish1Bold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"15"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

@@ -4,7 +4,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"xpos"						"0"
-		"ypos"						"-20"
+		"ypos"						"0"
 		"zpos"						"-2"
 		"wide"						"f0" //Change this to "0" if you dont want a bg here
 		"tall"						"400"
@@ -431,8 +431,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
-		"labeltext"									"Q"
-		"font"										"tf2icons"
+		"labeltext"									"W"
+		"font"										"TF2 Icons"
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"

@@ -49,7 +49,7 @@
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"19"
+			"wide"									"20"
 			"tall"									"19"
 			"visible"								"1"
 			"enabled"								"1"
@@ -57,7 +57,7 @@
 			"textAlignment"							"center"
 			"Command"								"toggle_chat"
 			"proportionaltoparent"					"1"
-			"labeltext"								"R"
+			"labeltext"								"S"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -72,8 +72,9 @@
 			"depressedFgColor_override"				"White"
 
 			"defaultBgColor_override"				"TransparentBlack"
-			"armedBgColor_override"					"Menu_Accent"
-			"depressedBgColor_override"				"Menu_Accent"
+			"armedBgColor_override"					"235 226 202 255"
+			"depressedBgColor_override"				"235 226 202 255"
+
 		}
 		"PartySlot0"
 		{
@@ -441,11 +442,14 @@
 			"RoundedCorners"						"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"192 28 0 50"
-			"defaultBgColor_override"				"192 28 0 150"
+            "defaultBgColor_override"                "192 28 0 150"
+            "armedBgColor_override"                    "192 28 0 50"
+            "depressedBgColor_override"                "192 28 0 50"
+            "depressedFgColor_override"                "TanLight"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+            "image_drawcolor"                        "235 226 202 255"
+            "image_armedcolor"                        "235 226 202 255"
+            "image_selectedcolor"                    "235 226 202 255"
 		}
 		"DisconnectButton"
 		{
@@ -469,11 +473,14 @@
 			"RoundedCorners"						"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"192 28 0 50"
-			"defaultBgColor_override"				"192 28 0 150"
+            "defaultBgColor_override"                "192 28 0 150"
+            "armedBgColor_override"                    "192 28 0 50"
+            "depressedBgColor_override"                "192 28 0 50"
+            "depressedFgColor_override"                "TanLight"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+            "image_drawcolor"                        "235 226 202 255"
+            "image_armedcolor"                        "235 226 202 255"
+            "image_selectedcolor"                    "235 226 202 255"
 		}
 		"ResumeButton"
 		{
@@ -482,7 +489,7 @@
 			"xpos"									"rs1-48"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"24"
+			"wide"									"16"
 			"tall"									"f9"
 			"visible"								"0"
 			"enabled"								"1"
@@ -498,8 +505,8 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
 		}
 		"FindAGameButton"
 		{
@@ -508,7 +515,7 @@
 			"xpos"									"rs1-60"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"24"
+			"wide"									"70"
 			"tall"									"f9"
 			"visible"								"1"
 			"enabled"								"1"
@@ -516,7 +523,7 @@
 			"textAlignment"							"center"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
-			"labeltext"								"!"
+			"labeltext"								"PLAY"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -524,11 +531,32 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"CreditsGreen"
-			"defaultBgColor_override"				"GreenSolid"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+            "defaultBgColor_override"    "GreenSolid"
+            "armedBgColor_override"        "CreditsGreen"
+            "depressedBgColor_override"    "CreditsGreen"
+            "depressedFgColor_override"    "TanLight"
+
+            "image_drawcolor"        "235 226 202 255"
+            "image_armedcolor"        "235 226 202 255"
+            "image_selectedcolor"    "235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"7"
+				"ypos"			"3"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_multiplayer"
+				"drawcolor_override" "TanLight"
+			}
 		}
 	}
 }
