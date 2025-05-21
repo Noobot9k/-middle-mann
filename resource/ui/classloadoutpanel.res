@@ -432,7 +432,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"W"
-		"font"										"TF2 Icons"
+		"font"										"tf2icons"
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
