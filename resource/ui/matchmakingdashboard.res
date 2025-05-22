@@ -71,9 +71,10 @@
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"White"
 
-			"defaultBgColor_override"				"TransparentBlack"
+			"defaultBgColor_override"				"MenuButton"
 			"armedBgColor_override"					"235 226 202 255"
 			"depressedBgColor_override"				"235 226 202 255"
+
 
 		}
 		"PartySlot0"
