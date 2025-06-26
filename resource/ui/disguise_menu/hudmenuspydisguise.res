@@ -7,7 +7,7 @@
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"1752"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"470"
 		"tall"			"170"
 		"visible"		"0"

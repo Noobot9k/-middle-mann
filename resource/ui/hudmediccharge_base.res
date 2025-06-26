@@ -316,7 +316,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"	"ResistIcon"
 		"xpos"	"0"
-		"ypos"	"0"
+		"ypos"	"1000"
 		"wide"	"36"
 		"tall"	"36"
 		"visible"	"1"
