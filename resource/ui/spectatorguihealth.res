@@ -1,16 +1,19 @@
 "Resource/UI/SpectatorGUIHealth.res"
 //this da shit
+
+// this is the health bar seen when looking at someone or a building or when healing someone as medic or when being healed by a medic.
+
 {
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"52"
-		"ypos"			"1"
+		"xpos"			"52-10" // 52
+		"ypos"			"17.5-10" // 1
 		"zpos"			"3"
-		"wide"			"10"
+		"wide"			"20" // 10
 		"wide_minmode"	"14"
-		"tall"			"10"
+		"tall"			"20" // 10
 		"tall_minmode"	"14"
 		"visible"		"1"
 		"enabled"		"1"
@@ -20,14 +23,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"51"
+		"xpos"			"52-13" // 51
 		"xpos_minmode"	"6"
-		"ypos"			"-1"
+		"ypos"			"17.5-13" // -1
 		"ypos_minmode"	"6"
 		"zpos"			"2"
-		"wide"			"13"
+		"wide"			"27" // 13
 		"wide_minmode"	"16"
-		"tall"			"13"
+		"tall"			"26" // 13
 		"tall_minmode"	"16"
 		"visible"		"1"
 		"enabled"		"1"
@@ -40,7 +43,7 @@
 		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"			"10"
 		"xpos_minmode"	"2"
-		"ypos"			"2"
+		"ypos"			"17.5-14" // 2
 		"ypos_minmode"	"3"
 		"zpos"			"1"
 		"wide"			"28"
@@ -56,16 +59,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"23"
+		"xpos"			"52-14" // 23
 		"xpos_minmode"	"8"
-		"ypos"			"5"
+		"ypos"			"17.5-14" // 5
 		"ypos_minmode"	"8"
 		"zpos"			"0"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"28" // 16
+		"tall"			"28" // 16
 		"wide_minmode"	"12"
 		"tall_minmode"	"12"
-		"visible"		"1"
+		"visible"		"0" // 1
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
@@ -78,13 +81,13 @@
 		//"xpos"			"-9"
 		//"ypos"			"6"
 	    "xpos" "6"
-		"ypos" "2"
+		"ypos" "17.5-10" // 2
 		//og 19
 		"ypos_minmode"	"14"
 		"zpos"			"5"
 		"wide"			"50"
 		"wide_minmode"	"50"
-		"tall"			"20"
+		"tall"			"20" // 20
 		"tall_minmode"	"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -106,8 +109,8 @@
         "textAlignment" "center"
         "labelText"     "%health%"
 	    "xpos" "8"
-		"ypos" "-11"
-        "zpos"          "2"
+		"ypos" "17.5-25+2" // -11
+        "zpos"          "4" // 2
         "wide"          "50"
         "tall"          "50"
         "visible"       "1"
